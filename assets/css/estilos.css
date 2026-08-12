@@ -28,3 +28,15 @@ button {
   border-radius: 0.4rem;
   cursor: pointer;
 }
+
+.mensaje-inicial {
+    background-color: #6c64e1;
+    color: #ffffff;
+    padding: 1rem;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    gap: 10px; 
+}
