@@ -6,7 +6,7 @@ body {
   margin: 0;
   font-family: Arial, sans-serif;
   color: #16324f;
-  background-color: #f4f8fb;
+  background-color: #1C1F20;
 }
 
 header,
@@ -17,7 +17,8 @@ footer {
 
 header {
   color: #ffffff;
-  background-color: #145da0;
+  background-color: #37008F;
+  border-radius: 0.7rem;
 }
 
 button {
@@ -39,4 +40,56 @@ button {
     display: flex;
     list-style: none;
     gap: 10px; 
+}
+
+.cabecera-sitio,
+.menu,
+.grilla-tarjetas {
+  display: flex;
+  gap: 1rem;
+}
+
+.cabecera-sitio {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu {
+  padding: 0;
+  list-style: none;
+}
+
+.marca,
+.menu a,
+.pie-sitio a {
+  color: inherit;
+}
+
+main {
+  max-width: 70rem;
+  margin-inline: auto;
+}
+
+.grilla-tarjetas {
+  flex-wrap: wrap;
+}
+
+.tarjeta {
+  flex: 1 1 18rem;
+  padding: 1rem;
+  background: #181A1B;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.salto-contenido {
+  position: absolute;
+  left: -10000px;
+}
+
+.salto-contenido:focus {
+  position: static;
 }
